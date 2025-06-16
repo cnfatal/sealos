@@ -2,6 +2,8 @@ module github.com/labring/sealos
 
 go 1.20
 
+replace github.com/labring/sreg => github.com/cnfatal/sreg v0.1.6
+
 require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/Masterminds/semver/v3 v3.2.1
